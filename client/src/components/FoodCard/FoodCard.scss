@@ -1,0 +1,53 @@
+.food-card {
+  background-color: #242424;
+  width: 100%;
+  margin-top: 20px;
+  &__title {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+
+  }
+  &__img {
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    float: left;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  &__desc-wrapper {
+    margin-top: 10px;
+    max-width: 50%;
+    margin-left: 20px;
+    text-align: left;
+    float: left;
+  }
+  &__wrapper {
+    margin-top: 10px;
+    float: right;
+    text-align: center;
+  }
+  &__discount {
+    margin-top: 10px;
+    text-decoration: line-through;
+  }
+  &__btn {
+    margin-right: 10px;
+    color: #FFCE1C;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    width: 120px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0);
+    border: #FFCE1C 1px solid;
+    border-radius: 30px;
+
+    &:hover {
+      background-color: #FFCE1C;
+      color: #212529;
+    }
+  }
+}

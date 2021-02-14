@@ -1,0 +1,64 @@
+.feedbacks-section {
+  overflow: hidden;
+  height: 99%;
+  background-color: #111111;
+  background: url("http://zcube.in/thesignatures/img/bg/test-bg.png") no-repeat center/cover;
+  &__btn {
+    margin-top: 140px;
+    margin-left: 115px;
+    height: 40px;
+    background-color: rgba(1,1,1,0);
+    border-radius: 15px;
+    border: #FDC437 1px solid;
+    padding: 0 20px 0 20px;
+    &:hover {
+      background-color: #FDC437;
+      color: #111111;
+    }
+  }
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  &__title_pos {
+    margin-top: 10px;
+    margin-bottom: 55px;
+  }
+  &__section-name {
+    margin-left: 0px;
+    text-transform: uppercase;
+    margin-top: 140px;
+    color: #FDC437;
+    font-size: 26px;
+    position: relative;
+    &:after {
+      position: absolute;
+      top: 20px;
+      left: 120px;
+      content: "";
+      display: block;
+      width: 70px;
+      height: 3px;
+      background-color: #FDC437;
+    }
+  }
+}
+
+
+
+@media (max-width: 475px) {
+  .feedbacks-section {
+    position: relative;
+    &__btn {
+      position: absolute;
+      top: -50px;
+      left: -100px;
+      height: 40px;
+      background-color: rgba(1, 1, 1, 0);
+      border-radius: 15px;
+      border: #FDC437 1px solid;
+      padding: 0 20px 0 20px;
+    }
+  }
+}

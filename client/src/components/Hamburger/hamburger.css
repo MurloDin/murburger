@@ -1,0 +1,43 @@
+.mobile-nav {
+    position: relative;
+}
+
+.hamburger-list {
+    padding-left: 0;
+    list-style: none;
+    display: none;
+}
+
+.hamburger-list__link {
+    background-color: rgba(1,1,1,.9);
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.hamburger-list__link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.hamburger_position {
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: -60px;
+}
+
+.hamburger-list.is-active {
+    display: block;
+}
+
+
+@media (max-width: 425px) {
+    .hamburger_position {
+        right: 0px;
+
+    }
+}

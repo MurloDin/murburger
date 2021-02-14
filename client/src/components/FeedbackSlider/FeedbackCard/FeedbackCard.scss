@@ -1,0 +1,44 @@
+.feedback-card {
+  border-radius: 25px;
+  background-color: #181818;
+  margin: 0 10px 40px 10px;
+  height: 300px;
+  padding: 15px;
+  &__author-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  &__title-wrapper {
+    margin-left: 15px;
+    display: inline-block;
+  }
+  &__img-wrapper {
+    border-radius: 35px;
+    display: inline-block;
+    overflow: hidden;
+    width: 64px;
+    height: 64px;
+  }
+  &__img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  &__title {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+  }
+  &__rating {
+    color: white;
+  }
+  &__feedback {
+    margin-top: 10px;
+    color: #878787;
+  }
+}
+
+.ad {
+  display: inline;
+}

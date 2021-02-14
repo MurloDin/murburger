@@ -1,0 +1,18 @@
+.spicy-rating {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  &__text {
+    margin-left: 10px;
+    color: #C91515;
+    font-weight: bold;
+  }
+
+}
+.pepper {
+  height: 22px;
+}
+.pepper-opacity {
+  height: 20px;
+  opacity: .2;
+}

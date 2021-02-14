@@ -1,0 +1,32 @@
+.feature-section {
+  background-color: #111111;
+  background: url("people.jpg") no-repeat center/cover;
+  &__subtitle {
+    margin-top: 110px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+  }
+  &__title_position {
+    margin-top: 10px;
+    text-align: center;
+  }
+  &__line {
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+}
+
+
+@media (max-width: 475px) {
+  .feature-section {
+    padding-top: 30px;
+    &__title_position.title {
+      font-size: 20px;
+    }
+  }
+}
+
+
